@@ -1,0 +1,375 @@
+* {
+    box-sizing: border-box;
+}
+body {
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+body {
+    opacity: 1;
+    transition: 1s opacity;
+}
+body.fade-out {
+    opacity: 0;
+    transition: none;
+}
+
+#nameLogo {
+	float: left;
+	height: 100px;
+	width: 400px;
+	margin-left: 50px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 50px 130px;
+    text-decoration: none;
+}
+
+.content {
+	height: 600px;
+	width: 1400px;
+	margin: 0 auto;
+	background-color: #F0F0F0;
+}
+
+.content2 {
+	height: 1150px;
+	width: 1400px;
+	margin: 0 auto;
+	background-color: #F0F0F0;
+}
+
+#profilePic {
+	float: left;
+	padding: 20px;
+	border-radius: 50%;
+	height: 500px;
+	margin-top: 50px;
+	margin-left: 45px;
+	box-shadow: -20px 6px 5px grey;
+}
+
+#cardImage{
+	border-radius: 50%;
+	box-shadow: 2px 11px 5px grey;
+}
+#about {
+	float: left;
+}
+
+
+#aboutTitle {
+	width: 500px;
+	margin-left: 175px;
+	margin-top: 30px;
+
+}
+
+#portfolioTitle {
+	width: 500px;
+	margin-left: 450px;
+	margin-top: 10px;
+	border-bottom: 1px solid black;
+}
+
+#aboutMe {
+	margin-left: 30px;
+	width: 1300px;
+	padding-left: 30px;
+	font-size: 18px;
+
+}
+
+#logos {
+	margin-top: 20px;
+}
+
+#githubLogo, #instaLogo, #linkedinLogo, #twitterLogo {
+	height: 75px;
+	width: 75px;
+}
+
+#githubLogo:hover, #instaLogo:hover, #linkedinLogo:hover, #twitterLogo:hover {
+	transform: scale(1.5);
+}
+
+/*Portfolio Cards*/
+
+
+
+.row {
+    margin: 8px -16px;
+
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+    padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#cardTitle, #cardDisc {
+	text-align: center;
+}
+
+
+
+
+
+@media only screen and (max-width: 1359px) {
+	
+	li a {
+    padding: 40px 110px;
+	}
+
+	.content {
+	height: 625px;
+	width: 1300px;
+	}
+
+	#aboutTitle {
+	
+	margin-left: 170px;
+
+	}
+
+	#aboutMe {
+	width: 1200px;
+
+	}
+}
+
+@media only screen and (max-width: 1239px){
+	li a {
+    padding: 40px 100px;
+	}
+
+	.content {
+	height: 665px;
+	width: 1200px;
+	}
+
+	#aboutTitle {
+	margin-left: 115px;
+	
+	}
+
+	#aboutMe {
+	width: 1100px;
+	}
+}
+
+@media only screen and (max-width: 1239px){
+	li a {
+    padding: 40px 85px;
+	}
+
+	.content {
+	height: 710px;
+	width: 1100px;
+	}
+
+	#aboutTitle {
+	margin-left: 45px;
+	
+	}
+
+	#aboutMe {
+	width: 1000px;
+	}
+
+	#logos {
+		margin-left: 485px;
+	}
+}
+
+@media only screen and (max-width: 1089px){
+	li a {
+    padding: 40px 65px;
+	}
+
+	.content {
+	height: 730px;
+	width: 1055px;
+	}
+
+	#aboutTitle {
+	margin-left: 35px;
+	
+	}
+
+	#aboutMe {
+	width: 985px;
+	}
+}
+
+@media only screen and (max-width: 969px){
+	li a {
+    padding: 40px 55px;
+	}
+	
+	#profilePic {
+	float: left;
+	padding: 20px;
+	border-radius: 50%;
+	height: 500px;
+	margin-top: 50px;
+	margin-left: 15px;
+	box-shadow: -8px 1px 5px grey;
+	}
+	.content {
+	height: 755px;
+	width: 935px;
+	}
+
+	#aboutTitle {
+	margin-left: -30px;
+	
+	}
+
+	#aboutMe {
+	width: 875px;
+	}
+
+	#logos {
+		margin-left: 345px;
+	}
+}
+
+@media only screen and (max-width: 909px){
+	li a {
+    padding: 40px 35px;
+	}
+
+	#profilePic {
+	float: left;
+	padding: 20px;
+	border-radius: 50%;
+	height: 500px;
+	margin-top: 50px;
+	margin-left: -8px;
+	
+	}
+
+	.content {
+	height: 755px;
+	width: 890px;
+	}
+
+	#aboutTitle {
+	margin-left: -45px;
+	
+	}
+
+	#aboutMe {
+	width: 815px;
+	}
+
+	#logos {
+		margin-left: 315px;
+	}
+}
+@media only screen and (max-width: 789px){
+	li a {
+    padding: 40px 30px;
+	}
+
+	#profilePic {
+	width: 300px;
+	float: left;
+	padding: 20px;
+	border-radius: 50%;
+	height: 500px;
+	margin-top: 50px;
+	margin-left: -25px;
+	
+	}
+
+	.content {
+	height: 775px;
+	width: 750px;
+	}
+
+	#aboutTitle {
+	margin-left: -75px;
+	
+	}
+
+	#aboutMe {
+	width: 690px;
+	}
+
+	#logos {
+		margin-left: 235px;
+	}
+}
+/*Playing around with media queries*/
+@media only screen and (max-width: 759px){
+	li a {
+    padding: 40px 25px;
+	}
+}
+
+@media only screen and (max-width: 729px){
+	li a {
+    padding: 40px 20px;
+	}
+}
+@media only screen and (max-width: 699px){
+	li a {
+    padding: 40px 18px;
+	}
+}
+
+@media only screen and (max-width: 687px){
+	li a {
+    padding: 40px 15px;
+	}
+}
+
+@media only screen and (max-width: 669px){
+	li a {
+    padding: 40px 12px;
+	}
+}
+
+@media only screen and (max-width: 651px){
+	li a {
+    padding: 40px 10px;
+	}
+}
+
+@media only screen and (max-width: 639px){
+	li a {
+    padding: 40px 8px;
+	}
+}
