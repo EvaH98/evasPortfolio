@@ -55,6 +55,13 @@ li a {
 	background-color: #F0F0F0;
 }
 
+.content3 {
+	height: 600px;
+	width: 1400px;
+	margin: 0 auto;
+	background-color: #F0F0F0;
+}
+
 #profilePic {
 	float: left;
 	padding: 20px;
@@ -385,6 +392,7 @@ li a {
 	}
 }
 
+/*Iphone 6/7/8 Compatibility*/
 @media only screen and (max-width: 375px){
 
 	body {
@@ -417,6 +425,10 @@ li a {
 	width: 335px;
 	}
 
+	.content3{
+	height: 620px;
+	width: 335px;
+	}
 
 	#profilePic {
 	width: 250px;
@@ -458,6 +470,17 @@ li a {
 	margin-left: 20px;
 	margin-top: 10px;
 	border-bottom: 1px solid black;
+	}
+
+	#contactTitle{
+	width: 300px;
+	margin-left: 20px;
+	margin-top: 10px;
+	border-bottom: 1px solid black;
+	}
+
+	#logos2{
+		margin-left: 5px;
 	}
 	
 }
