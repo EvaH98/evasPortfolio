@@ -391,7 +391,8 @@ li a {
 		width: 375px;
 		height: 667px;
 	}
-li a {
+	
+	li a {
     padding: 15px 10px;
     margin-top: 10px;
     margin-right: 10px;
@@ -408,6 +409,11 @@ li a {
 
 	.content {
 	height: 1370px;
+	width: 335px;
+	}
+
+	.content2{
+	height: 2520px;
 	width: 335px;
 	}
 
@@ -440,6 +446,18 @@ li a {
 	#githubLogo, #instaLogo, #linkedinLogo, #twitterLogo {
 	height: 55px;
 	width: 55px;
-}
+	}
+
+	.column {
+        width: 100%;
+    }
+
+
+	#portfolioTitle {
+	width: 300px;
+	margin-left: 20px;
+	margin-top: 10px;
+	border-bottom: 1px solid black;
+	}
 	
 }
